@@ -1,3 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="1a601c0483a77210f88716dfeeaad3a5" extends="task" label="LoanerRequests" max_length="40" name="x_1893214_loaner_1_loanerrequests" type="collection"/>
+    <element audit="true" db_object_id="1a601c0483a77210f88716dfeeaad3a5" extends="task" label="LoanerRequests" max_length="40" name="x_1893214_loaner_1_loanerrequests" type="collection">
+        <element label="requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Location To Be Used" max_length="40" name="location_to_be_used" type="string"/>
+        <element label="start date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element choice="1" label="Depot" max_length="40" name="depot" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="sydney" sequence="5" value="sydney"/>
+                <element inactive_on_update="false" label="London" sequence="1" value="london"/>
+                <element inactive_on_update="false" label="Singapore" sequence="4" value="singapore"/>
+                <element inactive_on_update="false" label="other" sequence="6" value="other"/>
+                <element inactive_on_update="false" label="santa clara" sequence="3" value="sc"/>
+                <element inactive_on_update="false" label="New York" sequence="0" value="ny"/>
+                <element inactive_on_update="false" label="Buenos Aires" sequence="2" value="ba"/>
+            </choice>
+        </element>
+        <element label="Other" max_length="40" name="other" type="string"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element choice="3" label="Item type" max_length="40" name="item_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="cmdb_ci_computer"/>
+                <element inactive_on_update="false" label="Projector" sequence="2" value="cmdb_ci_projector"/>
+                <element inactive_on_update="false" label="Mobile Phone" sequence="1" value="cmdb_ci_mobile_device"/>
+            </choice>
+        </element>
+        <element choice="1" label="State Choices" max_length="40" name="state_choices" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="closed complete" sequence="6" value="3"/>
+                <element inactive_on_update="false" label="Deployment prep" sequence="2" value="15"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="14"/>
+                <element inactive_on_update="false" label="Post deployment" sequence="5" value="18"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="13"/>
+                <element inactive_on_update="false" label="Checked Out" sequence="4" value="17"/>
+                <element inactive_on_update="false" label="Ready For Pickup" sequence="3" value="16"/>
+            </choice>
+        </element>
+    </element>
 </database>
