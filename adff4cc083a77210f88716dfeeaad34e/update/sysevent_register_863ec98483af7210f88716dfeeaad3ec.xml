@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>used to tigger an email to remind a user to pickup thir loaner item</description>
+        <event_name>x_1893214_loaner_1.pickup</event_name>
+        <fired_by>schedule script eecution:Loaner item pickup</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>pickup</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-05 22:25:31</sys_created_on>
+        <sys_id>863ec98483af7210f88716dfeeaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1893214_loaner_1.pickup</sys_name>
+        <sys_package display_value="LoanerRequests" source="x_1893214_loaner_1">adff4cc083a77210f88716dfeeaad34e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LoanerRequests">adff4cc083a77210f88716dfeeaad34e</sys_scope>
+        <sys_update_name>sysevent_register_863ec98483af7210f88716dfeeaad3ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-05 22:25:31</sys_updated_on>
+        <table>x_1893214_loaner_1_loanerrequests</table>
+    </sysevent_register>
+</record_update>
