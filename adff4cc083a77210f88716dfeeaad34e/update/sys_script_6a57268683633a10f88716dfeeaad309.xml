@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -35,7 +35,7 @@ request.setHttpMethod('GET');
 
 //Eg. UserName="admin", Password="admin" for this code sample.
 var user = 'admin';
-var password = 'admin';
+var password = 'PBn-yC^4CNfW69(xV)q.GTtlC6vo=b';
 
 request.setBasicAuth(user,password);
 request.setRequestHeader("Accept","application/json");
@@ -55,7 +55,7 @@ gs.info('u_password: ' + myPass);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6a57268683633a10f88716dfeeaad309</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Retrieved Credentials</sys_name>
         <sys_overrides/>
         <sys_package display_value="LoanerRequests" source="x_1893214_loaner_1">adff4cc083a77210f88716dfeeaad34e</sys_package>
@@ -63,7 +63,7 @@ gs.info('u_password: ' + myPass);
         <sys_scope display_value="LoanerRequests">adff4cc083a77210f88716dfeeaad34e</sys_scope>
         <sys_update_name>sys_script_6a57268683633a10f88716dfeeaad309</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-12 10:14:52</sys_updated_on>
+        <sys_updated_on>2026-03-12 12:36:09</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>

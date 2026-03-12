@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref/>
+        <question display_value="Depot">a5a0cc1a832f3a10f88716dfeeaad373</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-12 16:30:04</sys_created_on>
+        <sys_id>e9a0cc1a832f3a10f88716dfeeaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New York</sys_name>
+        <sys_package display_value="LoanerRequests" source="x_1893214_loaner_1">adff4cc083a77210f88716dfeeaad34e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LoanerRequests">adff4cc083a77210f88716dfeeaad34e</sys_scope>
+        <sys_update_name>question_choice_e9a0cc1a832f3a10f88716dfeeaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-12 16:30:04</sys_updated_on>
+        <text>New York</text>
+        <value>ny</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e9a0cc1a832f3a10f88716dfeeaad392"/>
+</record_update>
