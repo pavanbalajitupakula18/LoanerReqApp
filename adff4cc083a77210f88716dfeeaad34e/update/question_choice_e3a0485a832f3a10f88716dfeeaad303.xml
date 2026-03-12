@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref/>
+        <question display_value="Depot">e3a0085a832f3a10f88716dfeeaad3a3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-12 16:30:12</sys_created_on>
+        <sys_id>e3a0485a832f3a10f88716dfeeaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Buenos Aires</sys_name>
+        <sys_package display_value="LoanerRequests" source="x_1893214_loaner_1">adff4cc083a77210f88716dfeeaad34e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="LoanerRequests">adff4cc083a77210f88716dfeeaad34e</sys_scope>
+        <sys_update_name>question_choice_e3a0485a832f3a10f88716dfeeaad303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-12 16:30:12</sys_updated_on>
+        <text>Buenos Aires</text>
+        <value>ba</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e3a0485a832f3a10f88716dfeeaad303"/>
+</record_update>
