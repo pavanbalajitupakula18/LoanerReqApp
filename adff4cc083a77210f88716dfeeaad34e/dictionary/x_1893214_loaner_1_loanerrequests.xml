@@ -34,5 +34,6 @@
                 <element inactive_on_update="false" label="Ready For Pickup" sequence="3" value="16"/>
             </choice>
         </element>
+        <element label="Pick up reminder" max_length="255" name="pick_up_reminder" type="glide_date_time"/>
     </element>
 </database>
